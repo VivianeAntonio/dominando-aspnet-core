@@ -1,6 +1,7 @@
 ﻿using AppSemTemplate.Configuration;
 using AppSemTemplate.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
 namespace AppSemTemplate.Controllers
@@ -9,16 +10,21 @@ namespace AppSemTemplate.Controllers
     {
         private readonly IConfiguration _configuration;
         private readonly ApiConfiguration _apiConfiguration;
+        private readonly ILogger<HomeController> _logger;
 
         public HomeController(IConfiguration configuration,
-            IOptions<ApiConfiguration> apiConfiguration)
+                              IOptions<ApiConfiguration> apiConfiguration,
+                              ILogger<HomeController> logger)
         {
             _configuration = configuration;
             _apiConfiguration = apiConfiguration.Value;
+            _logger = logger;   
         }
 
         public IActionResult Index()
         {
+            _logger.LogInformation("Information");
+
             var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 
             var apiConfig = new ApiConfiguration();

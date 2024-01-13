@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder
+    //.AddElmahConfiguration()
     .AddMvcConfiguration()
     .AddIdentityConfiguration()
     .AddDependencyInjectionConfiguration();
