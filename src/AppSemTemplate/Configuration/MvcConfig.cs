@@ -48,6 +48,8 @@ namespace AppSemTemplate.Configuration
                 app.UseHsts();
             }
 
+            app.UseGlobalizationConfig();
+
             //app.UseElmahIo();
             //app.UseElmahIoExtensionsLogging();
 
