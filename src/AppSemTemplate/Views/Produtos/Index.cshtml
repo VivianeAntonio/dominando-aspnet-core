@@ -4,7 +4,7 @@
     ViewData["Title"] = "Meus Produtos";
 }
 <h1>@ViewData["Title"]</h1>
-
+<br />
 <p>
     <a class="btn btn-primary" asp-action="CriarNovoProduto"><spam class="fa fa-plus"></spam> Novo</a>
 </p>
@@ -38,13 +38,9 @@
                     R$ @Html.DisplayFor(modelItem => item.Valor)
                 </td>
                 <td>
-                    <botao tipo-botao="Detalhes" route-id="@item.Id"></botao>
-                    <botao tipo-botao="Editar"   route-id="@item.Id"></botao>
-                    <botao tipo-botao="Excluir"  route-id="@item.Id"></botao>
-
-                    @*<a asp-action="Details" class="btn btn-info" asp-route-id="@item.Id"><spam class="fa fa-search"></a>
-                    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.Id"><spam class="fa fa-pencil-alt"></spam></a>
-                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.Id"><spam class="fa fa-trash"></spam></a>*@
+                    <botao tipo-botao="Detalhes" route-id="@item.Id" title="Detalhes"></botao>
+                    <botao tipo-botao="Editar"   route-id="@item.Id" title="Editar"></botao>
+                    <botao tipo-botao="Excluir"  route-id="@item.Id" title="Excluir"></botao>
                 </td>
             </tr>
         }
