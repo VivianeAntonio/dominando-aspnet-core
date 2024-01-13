@@ -1,4 +1,6 @@
-﻿using AppSemTemplate.Services;
+﻿using AppSemTemplate.Extensions;
+using AppSemTemplate.Services;
+using Microsoft.AspNetCore.Mvc.DataAnnotations;
 
 namespace AppSemTemplate.Configuration
 {
@@ -13,6 +15,7 @@ namespace AppSemTemplate.Configuration
             builder.Services.AddSingleton<IOperacaoSingletonInstance>(new Operacao(Guid.Empty)); //instancia gerada uma unica vez mas eu decido qual objeto usar
             builder.Services.AddTransient<OperacaoService>();
 
+            builder.Services.AddSingleton<IValidationAttributeAdapterProvider, MoedaValidationAttributeAdapterProvider>();
             return builder;
 
         }
