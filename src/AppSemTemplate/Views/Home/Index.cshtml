@@ -1,8 +1,12 @@
-﻿<h2>Bem vindo(a)!</h2>
+﻿@using Microsoft.AspNetCore.Mvc.Localization;
+@inject IViewLocalizer Localizer
+
+<h2 class="text-md-center">@ViewData["Message"]</h2>
+
 <br />
 
-<p>Este app foi construído do zero utilizando ASP.NET CORE MVC sem nenhum template.</p>
-<p>Trata-se de uma forma de praticar as habilidades de desenvolvimento Web.</p>
-<p>Entre e veja algumas das funcionalidades criadas utilizando os recursos que o ASP.NET CORE permite!</p>
+<p>@Localizer["Este app foi construído do zero utilizando ASP.NET CORE MVC sem nenhum template."]</p>
+<p>@Localizer["Trata-se de uma forma de praticar as habilidades de desenvolvimento Web."]</p>
+<p>@Localizer["Entre e veja algumas das funcionalidades criadas utilizando os recursos que o ASP.NET CORE permite!"]</p>
 
 
