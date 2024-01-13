@@ -1,4 +1,5 @@
 ﻿using AppSemTemplate.Data;
+using AppSemTemplate.Extensions;
 using AppSemTemplate.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -19,7 +20,10 @@ namespace AppSemTemplate.Configuration
                  .AddUserSecrets(Assembly.GetExecutingAssembly(), true);
 
             builder.Services.AddControllersWithViews(options =>
-                options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute()));
+            {
+                options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
+                options.Filters.Add(typeof(FiltroAuditoria));
+            });
 
             builder.Services.AddDbContext<AppDbContext>(o =>
                 o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -45,7 +49,7 @@ namespace AppSemTemplate.Configuration
             }
 
             //app.UseElmahIo();
-            app.UseElmahIoExtensionsLogging();
+            //app.UseElmahIoExtensionsLogging();
 
             app.UseHttpsRedirection();
 
