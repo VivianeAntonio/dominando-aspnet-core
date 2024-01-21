@@ -20,6 +20,8 @@ namespace AppSemTemplate.Configuration
                  .AddEnvironmentVariables()
                  .AddUserSecrets(Assembly.GetExecutingAssembly(), true);
 
+            builder.Services.AddResponseCaching();
+
             builder.Services.AddControllersWithViews(options =>
             {
                 options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
@@ -29,6 +31,14 @@ namespace AppSemTemplate.Configuration
             })
                 .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
                 .AddDataAnnotationsLocalization();
+
+            builder.Services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+                options.ConsentCookieValue = "true";
+            });
+
 
             builder.Services.AddDbContext<AppDbContext>(o =>
                 o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -53,6 +63,8 @@ namespace AppSemTemplate.Configuration
                 app.UseHsts();
             }
 
+            app.UseResponseCaching();
+
             app.UseGlobalizationConfig();
 
             //app.UseElmahIo();
@@ -61,6 +73,8 @@ namespace AppSemTemplate.Configuration
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
+
+            app.UseCookiePolicy();
 
             app.UseRouting();
             app.UseAuthorization();
