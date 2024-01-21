@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jBotq7WgyB2x+UCoktt3QCEITogCwSL1NUVn6FZfES4=",
+  "Hash": "J3lfsjf3s1bkIpFPFhalynEApIIUoTZyEE9io9N7xUc=",
   "Source": "AppSemTemplate",
   "BasePath": "_content/AppSemTemplate",
   "Mode": "Default",
@@ -1086,6 +1086,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Estudos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\5b1a7468-ff3a-481c-842c-6b708af5edaf_logica-programacao.jfif",
+      "SourceId": "AppSemTemplate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Estudos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\",
+      "BasePath": "_content/AppSemTemplate",
+      "RelativePath": "images/5b1a7468-ff3a-481c-842c-6b708af5edaf_logica-programacao.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5b1a7468-ff3a-481c-842c-6b708af5edaf_logica-programacao.jfif"
+    },
+    {
+      "Identity": "D:\\Estudos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\8d1b88e8-b77a-4adf-95a5-b4e0f5115d1e_logica-programacao.jfif",
+      "SourceId": "AppSemTemplate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Estudos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\",
+      "BasePath": "_content/AppSemTemplate",
+      "RelativePath": "images/8d1b88e8-b77a-4adf-95a5-b4e0f5115d1e_logica-programacao.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\8d1b88e8-b77a-4adf-95a5-b4e0f5115d1e_logica-programacao.jfif"
     },
     {
       "Identity": "D:\\Estudos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\CSS.jpg",
