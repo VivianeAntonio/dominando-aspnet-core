@@ -45,6 +45,34 @@
       "PackagePath": "staticwebassets\\images\\Razor.jpg"
     },
     {
+      "Id": "D:\\Estudos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\af880f36-ddd9-4c63-a3f4-004f67ce81b6_logica-programacao.jfif",
+      "PackagePath": "staticwebassets\\images\\af880f36-ddd9-4c63-a3f4-004f67ce81b6_logica-programacao.jfif"
+    },
+    {
+      "Id": "D:\\Estudos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\logo_watermark.png",
+      "PackagePath": "staticwebassets\\images\\logo_watermark.png"
+    },
+    {
+      "Id": "D:\\Estudos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\prod_6e205d59-faf0-4c80-aaed-fbb563ef177f_orientacao-a-objetos-c-charp.jfif",
+      "PackagePath": "staticwebassets\\images\\prod_6e205d59-faf0-4c80-aaed-fbb563ef177f_orientacao-a-objetos-c-charp.jfif"
+    },
+    {
+      "Id": "D:\\Estudos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\prod_8d1b88e8-b77a-4adf-95a5-b4e0f5115d1e_logica-programacao.jfif",
+      "PackagePath": "staticwebassets\\images\\prod_8d1b88e8-b77a-4adf-95a5-b4e0f5115d1e_logica-programacao.jfif"
+    },
+    {
+      "Id": "D:\\Estudos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\prod_af880f36-ddd9-4c63-a3f4-004f67ce81b6_logica-programacao.jfif",
+      "PackagePath": "staticwebassets\\images\\prod_af880f36-ddd9-4c63-a3f4-004f67ce81b6_logica-programacao.jfif"
+    },
+    {
+      "Id": "D:\\Estudos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\prod_css.jpg",
+      "PackagePath": "staticwebassets\\images\\prod_css.jpg"
+    },
+    {
+      "Id": "D:\\Estudos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\prod_jquery.jpg",
+      "PackagePath": "staticwebassets\\images\\prod_jquery.jpg"
+    },
+    {
       "Id": "D:\\Estudos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\js\\cep.js",
       "PackagePath": "staticwebassets\\js\\cep.js"
     },
