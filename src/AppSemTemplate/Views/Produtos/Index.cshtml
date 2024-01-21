@@ -29,7 +29,7 @@
         {
             <tr>
                 <td>
-                    <img src="/images/@item.Imagem" style="height: 100px; width: 61px" />
+                    <img src="/images/@(item.Processado ? "prod_" + item.Imagem : item.Imagem)" style="height: 100px; width: 61px" />
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Nome)

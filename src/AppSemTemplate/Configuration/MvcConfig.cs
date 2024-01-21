@@ -46,6 +46,7 @@ namespace AppSemTemplate.Configuration
             builder.Services.Configure<ApiConfiguration>(
                 builder.Configuration.GetSection(ApiConfiguration.ConfigName));
 
+            builder.Services.AddHostedService<ImageWatermarkService>();
 
             return builder;
         }
