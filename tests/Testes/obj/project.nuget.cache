@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dizEZvVepSwimpyXkm0nEPzeLv+UbWqenabARoYFf+GsxBPajOFecbF7jVmwZqwN5NzwcfTV2GQ8o/O8gV4E0Q==",
+  "dgSpecHash": "yZHhgG4lxgLfYBVsKnMbauUeMObA5wFRgVEPZt8sZy+3FF6xdTdARnj19QhdeO5+nSgEKTrGsCuBKhLn5jc55w==",
   "success": true,
   "projectFilePath": "D:\\Estudos\\ConhecimentosEssenciais\\tests\\Testes\\Testes.csproj",
   "expectedPackageFiles": [
@@ -91,9 +91,10 @@
     "C:\\Users\\viviane.silva\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\viviane.silva\\.nuget\\packages\\microsoft.diasymreader\\1.4.0\\microsoft.diasymreader.1.4.0.nupkg.sha512",
     "C:\\Users\\viviane.silva\\.nuget\\packages\\microsoft.dotnet.scaffolding.shared\\7.0.10\\microsoft.dotnet.scaffolding.shared.7.0.10.nupkg.sha512",
-    "C:\\Users\\viviane.silva\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
-    "C:\\Users\\viviane.silva\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
-    "C:\\Users\\viviane.silva\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.9\\microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",
+    "C:\\Users\\viviane.silva\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.15\\microsoft.entityframeworkcore.7.0.15.nupkg.sha512",
+    "C:\\Users\\viviane.silva\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.15\\microsoft.entityframeworkcore.abstractions.7.0.15.nupkg.sha512",
+    "C:\\Users\\viviane.silva\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.15\\microsoft.entityframeworkcore.analyzers.7.0.15.nupkg.sha512",
+    "C:\\Users\\viviane.silva\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.15\\microsoft.entityframeworkcore.inmemory.7.0.15.nupkg.sha512",
     "C:\\Users\\viviane.silva\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.9\\microsoft.entityframeworkcore.relational.7.0.9.nupkg.sha512",
     "C:\\Users\\viviane.silva\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.9\\microsoft.entityframeworkcore.sqlserver.7.0.9.nupkg.sha512",
     "C:\\Users\\viviane.silva\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",

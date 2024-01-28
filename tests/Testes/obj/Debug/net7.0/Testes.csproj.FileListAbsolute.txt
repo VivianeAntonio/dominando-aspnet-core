@@ -338,3 +338,4 @@ D:\Estudos\ConhecimentosEssenciais\tests\Testes\obj\Debug\net7.0\refint\Testes.d
 D:\Estudos\ConhecimentosEssenciais\tests\Testes\obj\Debug\net7.0\Testes.pdb
 D:\Estudos\ConhecimentosEssenciais\tests\Testes\obj\Debug\net7.0\Testes.genruntimeconfig.cache
 D:\Estudos\ConhecimentosEssenciais\tests\Testes\obj\Debug\net7.0\ref\Testes.dll
+D:\Estudos\ConhecimentosEssenciais\tests\Testes\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
