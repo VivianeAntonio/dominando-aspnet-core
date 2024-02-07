@@ -13,6 +13,9 @@ namespace AppSemTemplate.Configuration
             builder.Services.AddScoped<IOperacaoScoped, Operacao>(); // instancia gerada uma vez dentro do request
             builder.Services.AddSingleton<IOperacaoSingleton, Operacao>(); //instancia gerada uma unica vez
             builder.Services.AddSingleton<IOperacaoSingletonInstance>(new Operacao(Guid.Empty)); //instancia gerada uma unica vez mas eu decido qual objeto usar
+           
+            builder.Services.AddScoped<IImageUploadService, ImageUploadService>();  
+            
             builder.Services.AddTransient<OperacaoService>();
 
             builder.Services.AddSingleton<IValidationAttributeAdapterProvider, MoedaValidationAttributeAdapterProvider>();

@@ -777,3 +777,4 @@ D:\Estudos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\en\AppSem
 D:\Estudos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.Resources.Models.Produto.en.resources
 D:\Estudos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.Resources.Views.Shared._SelectLanguagePartial.en.resources
 D:\Estudos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.Resources.Views.Home.Index.en.resources
+D:\Estudos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\en\AppSemTemplate.resources.cs
